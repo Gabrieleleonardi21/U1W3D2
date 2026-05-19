@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  color: #1b2845;
+}
+
+h1 {
+  margin-bottom: 24px;
+}
+
+.aggiunta {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  font-family: inherit;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+select {
+  padding: 10px;
+  font-size: 14px;
+  font-family: inherit;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: inherit;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  overflow: hidden;
+  padding: 12px 14px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.priorita-alta {
+  background: #fde2e2;
+  border-color: #f5c4b3;
+}
+.priorita-media {
+  background: #fdfae8;
+  border-color: #fac775;
+}
+.priorita-bassa {
+  background: #eaf3de;
+  border-color: #e2f5e2;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 8px;
+}
+
+.badge-alta {
+  background: rgb(1, 1, 119);
+  color: #ffffff;
+}
+.badge-media {
+  background: rgb(1, 1, 119);
+  color: #fff;
+}
+.badge-bassa {
+  background: rgb(1, 1, 119);
+  color: #fff;
+}
+
+.data {
+  float: right;
+  font-size: 12px;
+  color: #888;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.nome-task {
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.evidenziato {
+  border: 2px solid #f6c948 !important;
+  background: #fffbe6 !important;
+}
+
+.btn-elimina {
+  float: right;
+  padding: 5px 12px;
+  font-size: 12px;
+  background: white;
+  color: #4a4a4a;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-elimina:hover {
+  background: #fff0ee;
+  color: #993c1d;
+  border-color: #f5c4b3;
+}
+
+p {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #555;
+}
