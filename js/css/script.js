@@ -60,11 +60,6 @@ function evidenzia(indice) {
   if (li) li.classList.add("evidenziato");
 }
 
-function togliEvidenza(indice) {
-  const li = lista.querySelectorAll("li")[indice];
-  if (li) li.classList.remove("evidenziato");
-}
-
 function contaPerPriorita() {
   const items = lista.querySelectorAll("li");
   const risultato = { alta: 0, media: 0, bassa: 0 };
